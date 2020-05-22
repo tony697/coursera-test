@@ -36,24 +36,21 @@ h1{
 }
 .p1Heading{
 	background-color: pink;
-	text-align: right;
+	float: right;
+	width: 30%;
 }
 .p2heading{
 	background-color: red;
-	text-align: right;
+	float: right;
 }
 .p3heading{
 	background-color: yellow;
+    width: 30%;
+    margin-left:70%;
     text-align: right;
+
 }
-@media(min-width: 1200px){
-	/*.firstRow{
-		padding-bottom: 10%;
-	}
-	.p1{
-		background-color:red;
-	}*/
+.p3parent{
+	background-color: grey;
 }
 
-@media(width: 768px) and (width: 991px)
-@media(max-width: 767px)

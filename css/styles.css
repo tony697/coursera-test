@@ -36,12 +36,15 @@ h1{
 }
 .p1Heading{
 	background-color: pink;
-	float: right;
+	text-align: right;
 	width: 30%;
+	margin-left: 70%
 }
 .p2heading{
 	background-color: red;
-	float: right;
+	text-align: right;
+	margin-left: 70%;
+	width:30%; 
 }
 .p3heading{
 	background-color: yellow;
@@ -54,3 +57,9 @@ h1{
 	background-color: grey;
 }
 
+.p2parent{
+	background-color: grey;
+}
+.p1parent{
+	background-color: grey
+}

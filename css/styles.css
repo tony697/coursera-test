@@ -1,0 +1,59 @@
+h1{
+	color: black;
+	margin-bottom: 15px;
+	text-align: center; 
+}
+.row{
+	margin-bottom: 15px;
+    padding: 15px;
+    border:border-box; 
+}
+.firstRow{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.secondRow{
+	padding-top: 0;
+	margin-top: 0;
+}
+.row > div {
+
+	float: right;
+}
+.p1{
+	font-size: 100%;
+	background-color: gray;
+}
+.p2{
+	font-size: 100%;
+	background-color: gray;
+	
+}
+.p3{
+	font-size: 100%;
+	background-color: gray;
+	height: 300
+}
+.p1Heading{
+	background-color: pink;
+	text-align: right;
+}
+.p2heading{
+	background-color: red;
+	text-align: right;
+}
+.p3heading{
+	background-color: yellow;
+    text-align: right;
+}
+@media(min-width: 1200px){
+	/*.firstRow{
+		padding-bottom: 10%;
+	}
+	.p1{
+		background-color:red;
+	}*/
+}
+
+@media(width: 768px) and (width: 991px)
+@media(max-width: 767px)
